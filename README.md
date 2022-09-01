@@ -1,15 +1,15 @@
 # CS1-krmartin3
 
-| Name               | Value
+| Name               | Value            |
 |  ----------------- |: ---------------:|
-| Course             | CSCI111 - CS1: Foundations of Computer Science
+| Course             | CSCI111 - CS1: Foundations of Computer Science |
                 
-| Section            | 3
-| Semester           | Fall 2022
-| Student            | Katie Martin
-| Mav Username       | krmartin3
-| GitHub Username    | katrmartin
-| Repository         | [https://github.com/katrmartin/CS1-krmartin3]
+| Section            | 3 |
+| Semester           | Fall 2022 |
+| Student            | Katie Martin |
+| Mav Username       | krmartin3 |
+| GitHub Username    | katrmartin |
+| Repository         | [https://github.com/katrmartin/CS1-krmartin3] }
 
 
 | Name               | Value
