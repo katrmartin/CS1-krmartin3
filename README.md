@@ -21,3 +21,9 @@
 | Location           |[https://github.com/katrmartin/CS1-krmartin3/tree/main/project0]
 | Self-Grade         | 100/100
 | Notes              | completed all the requirements and tested program many times; screenshot found in the same location
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
