@@ -29,4 +29,4 @@
 | Student     | Katie Martin      |  
 | Mav Username | krmartin3     |  
 | GitHub Username   | katrmartin      |  
-| Repository | [https://github.com/katrmartin/CS1-krmartin3]     |  
+| Repository | https://github.com/katrmartin/CS1-krmartin3     |  
