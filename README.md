@@ -21,8 +21,8 @@
 | Self-Grade         | 100/100                                                                                            |
 | Notes              | completed all the requirements and tested program many times; screenshot found in the same location|
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Name        | Value           | 
+| ------------- |:-------------:| 
+| col 3 is      | right-aligned | 
+| col 2 is      | centered      |  
+| zebra stripes | are neat      |  
