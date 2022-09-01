@@ -19,3 +19,12 @@
 | Mav Username | krmartin3     |  
 | GitHub Username   | katrmartin      |  
 | Repository | https://github.com/katrmartin/CS1-krmartin3     |  
+
+| Name        | Value           | 
+| ------------- |:-------------:| 
+| Name     | Hello World | 
+| Description    | A basic hello world program    |  
+| Due date  | 4-Sep-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/project0      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshot found in the same location   |
