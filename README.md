@@ -1,18 +1,7 @@
 # CS1-krmartin3
 
-| Name               | Value                                          |
-|  ----------------- |: ---------------------------------------------:|                              
-| Course             | CSCI111 - CS1: Foundations of Computer Science |                
-| Section            | 3                                              |
-| Semester           | Fall 2022                                      |
-| Student            | Katie Martin                                   |
-| Mav Username       | krmartin3                                      |
-| GitHub Username    | katrmartin                                     |
-| Repository         | [https://github.com/katrmartin/CS1-krmartin3] }|
-
-
 | Name               | Value                                                                                              |
-|  ----------------- |: -------------------------------------------------------------------------------------------------:|                                                                             
+|  ----------------- |: -------------------------------------------------------------------------------------------------:|                                               
 | Name               | Hello World                                                                                        |
 | Description        | A basic hello world program                                                                        |
 | Due date           | 4-Sep-22                                                                                           |
