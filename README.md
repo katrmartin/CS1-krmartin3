@@ -24,5 +24,9 @@
 | Name        | Value           | 
 | ------------- |:-------------:| 
 | Course     | CSCI111 - CS1: Foundations of Computer Science | 
-| col 2 is      | centered      |  
-| zebra stripes | are neat      |  
+| Section    | 3      |  
+| Semester  | Fall 2022      |  
+| Student     | Katie Martin      |  
+| Mav Username | krmartin3     |  
+| GitHub Username   | katrmartin      |  
+| Repository | [https://github.com/katrmartin/CS1-krmartin3]     |  
