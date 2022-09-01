@@ -23,6 +23,6 @@
 
 | Name        | Value           | 
 | ------------- |:-------------:| 
-| col 3 is      | right-aligned | 
+| Course     | CSCI111 - CS1: Foundations of Computer Science | 
 | col 2 is      | centered      |  
 | zebra stripes | are neat      |  
