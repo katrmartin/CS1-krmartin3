@@ -20,17 +20,20 @@ using namespace std; //resolve cout, cin, endl names
 //main entry point of the program
 int main() 
 {
+    string name;
+    cout << "Enter your full name: ";
     //FIXME3: declare a variable to store name
-    //FIXME4: prompt user to enter their name and store the value in variables
-
+    //FIXME4: prompt user to enter their name and store the value in variables #FIXED
+    getline(cin, name);
     //FIXME5: greet the name using the variable as the following output
     //must output: Nice meeting you, <name>!
+    cout << "Nice meeting you, " << name << '!' << endl;
 
-cout << "Hope you like my Tom & Jerry ASCII art...\n\n";
+cout << "Hope you like my Tom & Jerry's ASCII art...\n\n";
 
 string line1 = " |\\_/|  ********************** (\\_/)\n";
 cout << line1;
-
+string line2 = "";
 
 //FIXME6: use variable to print the second line of the graphic
 //FIXME7: print the third line of the graphics
@@ -39,7 +42,8 @@ cout << line1;
 //Note: You can add more lines or print more ASCII arts of your choice if you'd like...
 
 cout << "\nGood bye... hit enter to exit the program:" << '\n';
-//FIXME10: make the console wait for the user input
+cin.get();
+//FIXME10: make the console wait for the user input #FIXED
 
     return 0; //exit the program by returning to 0 status to the system
 }
