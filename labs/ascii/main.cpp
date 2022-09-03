@@ -22,30 +22,30 @@ int main()
 {
     string name;
     cout << "Enter your full name: ";
-    //FIXME3: declare a variable to store name
+    //FIXME3: declare a variable to store name #FIXED
     //FIXME4: prompt user to enter their name and store the value in variables #FIXED
     getline(cin, name);
-    //FIXME5: greet the name using the variable as the following output
+    //FIXME5: greet the name using the variable as the following output #FIXED
     //must output: Nice meeting you, <name>!
     cout << "Nice meeting you, " << name << '!' << endl;
 
 cout << "Hope you like my Tom & Jerry's ASCII art...\n\n";
 
-string line1 = " |\\_/|   ********************** (\\_/)\n";
+string line1 = "  |\\_/|   ****************************        (\\_/)\n";
 cout << line1;
-string line2 = " / @ @ \\ *      ASCII Art            *        (='.'=)\n";
+string line2 = " / @ @ \\  *       ASCII Art          *       (='.'=)\n";
 cout << line2;
-string line3 = "( > 0 < ) *  Author: <Katie Martin>        *  ( \" )_( \" )\n";
+string line3 = "( > 0 < ) *  Author: <Katie Martin>  *     ( \" )_( \" )\n";
 cout << line3;
-string line4 = " >>x<<       *      CS Foundation Course   *\n";
+string line4 = "  >>x<<   *   CS Foundation Course   *\n";
 cout << line4;
-string line5 = " / O \\       *******************************\n";
+string line5 = "  / O \\   ****************************\n";
 cout << line5;
 
-//FIXME6: use variable to print the second line of the graphic
-//FIXME7: print the third line of the graphics
-//FIXME8: use variable to print the fourth line
-//FIXME9: use variable to print the fifth line
+//FIXME6: use variable to print the second line of the graphic #FIXED
+//FIXME7: print the third line of the graphics #FIXED
+//FIXME8: use variable to print the fourth line #FIXED
+//FIXME9: use variable to print the fifth line #FIXED
 //Note: You can add more lines or print more ASCII arts of your choice if you'd like...
 
 cout << "\nGood bye... hit enter to exit the program:" << '\n';
