@@ -18,7 +18,7 @@
 | ------------- |:-------------| 
 | Name     | Hello World | 
 | Description    | A basic hello world program    |  
-| Due date  | 4-Sep-22      |  
+| Due date  | 6-Sep-22      |  
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/project0      |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshot found in the same location   |
@@ -26,3 +26,11 @@
 # Labs
 
 ## Lab #1:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | ASCII art | 
+| Description    | An ASCII art c++ program to help me learn standard input/output   |  
+| Due date  | 6-Sep-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/ascii      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes   |
