@@ -1,6 +1,6 @@
 /*
 
-Programmer and program info
+Programmer and program info :)
 - algorithm steps
 
 */
