@@ -29,8 +29,18 @@
 | Name        | Value           | 
 | ------------- |:-------------| 
 | Name     | ASCII art | 
-| Description    | An ASCII art c++ program to help me learn standard input/output   |  
+| Description    | An ASCII art c++ program to help me learn standard input/output, it prints out some ASCII art   |  
 | Due date  | 6-Sep-22      |  
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/ascii      |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes   |
+
+## Lab #2:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Math Circle | 
+| Description    | a c++ program that solves and outputs the area and circumference of a circle based on a radius that the user inputs   |  
+| Due date  | 8-Sep-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/math/circle      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
