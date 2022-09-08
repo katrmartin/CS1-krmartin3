@@ -38,21 +38,21 @@ int main() //main entry function that returns 0
 
 	// display some information about this program to the user
 	cout << "\nProgram finds area and circumference of a circle with the given radius.\n";
-	cout << string(75, '=') << endl << endl;
+	cout << string(75, '*') << endl << endl;
 
 	// prompt user telling what to do
 	cout << name << ", please enter radius of a circle: ";
 	cin >> radius; //read the entered value and store it into radius variable
 
 	area = pi * pow(radius, 2); // same as: area = pi * radius * radius;
-	//FIXME4: find circumference
+	//FIXME4: find circumference #FIXED
     circumference = (radius + radius)* pi;
 
 	cout << "Your circle has radius: " << fixed << setprecision(6) << radius << endl;
-    cout << "Your circle has circumference: " <<fixed << setprecision(6) << circumference << endl;
+    cout << "Your circle has circumference: " << fixed << setprecision(6) << circumference << endl;
 	cout << "Area of the circle is:\t" << area << '\n';
     
-	//FIXME5: Output the value of circumference FIXED
+	//FIXME5: Output the value of circumference #FIXED
 
 	// the following code may be required to make your console pause...
 	cout << "Good bye...\nHit enter to exit the program!" << '\n';
