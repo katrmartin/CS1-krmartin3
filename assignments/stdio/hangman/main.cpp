@@ -23,11 +23,11 @@ int main() {
 
     string name;
 
-    cout << "\n Hey there, what's your name? \n";
+    cout << "\n Hey there, what's your name? \n\n";
     getline (cin, name);
-    cout << " Nice meeting you, " << name << '!' << endl;
+    cout << "\n Nice meeting you, " << name << "!\n\n" << endl;
 
-cout << "This hangman game is under construction... but for now I can show you what the stages will look like! \n ";
+cout << "This hangman game is under construction... but for now I can show you what the stages will look like! \n\n ";
 
 cout << "\n Press enter to see Stage 0!";
 cin.get();
@@ -43,13 +43,112 @@ cout << "      |" << endl;
 cout << "      |" << endl;
 cout << " _____|_________ \n" << endl;
 
+cout << "\n Press enter to see Stage 1!";
+cin.get();
 
+cout << "\n Stage 1" << endl;
+
+cout << "      |--------------|" << endl;
+cout << "      |/      | " << endl;
+cout << "      |       O" << endl;
+cout << "      |" << endl;
+cout << "      |" << endl;
+cout << "      |" << endl;
+cout << "      |" << endl;
+cout << " _____|_________ \n" << endl;
+
+cout << "\n Press enter to see Stage 2!";
+cin.get();
+
+cout << "\n Stage 2" << endl;
+
+cout << "      |--------------|" << endl;
+cout << "      |/      | " << endl;
+cout << "      |       O" << endl;
+cout << "      |       |"<< endl;
+cout << "      |" << endl;
+cout << "      |" << endl;
+cout << "      |" << endl;
+cout << " _____|_________ \n" << endl;
+
+cout << "\n Press enter to see Stage 3!";
+cin.get();
+
+cout << "\n Stage 3" << endl;
+
+cout << "      |--------------|" << endl;
+cout << "      |/      | " << endl;
+cout << "      |       O" << endl;
+cout << "      |       |"<< endl;
+cout << "      |       |"<< endl;
+cout << "      |" << endl;
+cout << "      |" << endl;
+cout << " _____|_________ \n" << endl;
+
+cout << "\n Press enter to see Stage 4!";
+cin.get();
+
+cout << "\n Stage 4" << endl;
+
+
+cout << "      |--------------|" << endl;
+cout << "      |/      | " << endl;
+cout << "      |       O" << endl;
+cout << "      |       |" << endl;
+cout << "      |       |" << endl;
+cout << "      |        \\" << endl;
+cout << "      |" << endl;
+cout << " _____|_________ \n" << endl;
+
+cout << "\n Press enter to see Stage 5!";
+cin.get();
+
+cout << "\n Stage 5" << endl;
+
+cout << "      |--------------|" << endl;
+cout << "      |/      | " << endl;
+cout << "      |       O" << endl;
+cout << "      |       |"<< endl;
+cout << "      |       |" << endl;
+cout << "      |      / \\" << endl;
+cout << "      |" << endl;
+cout << " _____|_________ \n" << endl;
+
+cout << "\n Press enter to see Stage 6!";
+cin.get();
+
+cout << "\n Stage 6" << endl;
+
+cout << "      |--------------|" << endl;
+cout << "      |/      | " << endl;
+cout << "      |       O" << endl;
+cout << "      |      \\|"<< endl;
+cout << "      |       |"<< endl;
+cout << "      |      / \\" << endl;
+cout << "      |" << endl;
+cout << " _____|_________ \n" << endl;
+
+cout << "\n Press enter to see Stage 7!";
+cin.get();
+
+cout << "\n Stage 7" << endl;
+
+cout << "      |--------------|" << endl;
+cout << "      |/      | " << endl;
+cout << "      |       O" << endl;
+cout << "      |      \\|/"<< endl;
+cout << "      |       |"<< endl;
+cout << "      |      / \\" << endl;
+cout << "      |  "<< endl;
+cout << " _____|_________ \n" << endl;
+
+cout << "Thank you for viewing! Press enter to exit the program..." << endl;
+
+cin.get();
 
 
     return 0;
 
 }
-
-
 
 
