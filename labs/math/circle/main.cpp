@@ -55,7 +55,7 @@ int main() //main entry function that returns 0
 	//FIXME5: Output the value of circumference #FIXED
 
 	// the following code may be required to make your console pause...
-	cout << "Good bye...\nHit enter to exit the program!" << '\n';
+	cout << "Good bye...\nHit enter to exit the program! :)" << '\n';
 	cin.ignore(1000, '\n'); //ignore 1000 chars or until \n whichever comes first
 	// make the console wait for user input
 	cin.get();
