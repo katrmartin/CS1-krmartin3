@@ -6,11 +6,22 @@ Katie Martin
 */
 
 
-"#include <iostream>"
-int a, b;
-std::cin >> a >> b;
+#include <iostream>
+#include <string>
+#include <cmath>
 
+using namespace std;
 
+int main()
+{
 //declaring the 3 variables
-int a, b, ans;
+    int a, b, ans;
+    cin >> a >> b;
+    ans = a + b;
+    cout << ans;
+
+    return 0;
+}
+
+
 

@@ -8,7 +8,7 @@ CXX = g++
 CXXFLAGS = -c -g -Wall -std=c++17
 
 # the build target executable file; .exe is not required
-PROGRAM = circle.exe
+PROGRAM = addtwonumbers.exe
 
 # list .cpp files separated by space
 CPPFILES = main.cpp
@@ -25,8 +25,40 @@ all:
 clean:
 	rm -f $(PROGRAM) *.o
 
-# FIXME
+# FIXME #FIXED
 # add a rule to run the program
 
 run:
 	./$(PROGRAM)
+
+test:
+	cat input/1.in | ./$(PROGRAM) | diff - output/1.ans
+	cat input/2.in | ./$(PROGRAM) | diff - output/2.ans
+
+#FIX inputs #FIXED
+
+	cat input/3.in | ./$(PROGRAM) | diff - output/3.ans
+	cat input/4.in | ./$(PROGRAM) | diff - output/4.ans
+	cat input/5.in | ./$(PROGRAM) | diff - output/5.ans
+	cat input/6.in | ./$(PROGRAM) | diff - output/6.ans
+	@echo "All test cases passed!"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
