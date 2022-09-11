@@ -28,9 +28,9 @@
 | Name        | Value           | 
 | ------------- |:-------------| 
 | Name     | Hangman and Echoechoecho | 
-| Description    | FIXME    |  
+| Description    | Standard input and output    |  
 | Due date  | 12-Sep-22      |  
-| Location     | FIXME      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/stdio      |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
