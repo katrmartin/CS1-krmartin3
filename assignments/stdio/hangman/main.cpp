@@ -3,7 +3,7 @@
 stdIO Homework 1
     Hangman - standard input and output
 
-    Updated By: Katie Martin #FIXME1
+    Updated By: Katie Martin :) #FIXME1
     Date: 9/7/22 #FIXME2
 
     This program prints the 7 stages of the hangman game on the console #FIXME3 #FIXED
