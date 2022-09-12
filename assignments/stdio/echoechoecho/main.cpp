@@ -18,7 +18,7 @@ using namespace std; //resolve cout, cin, endl names
 int main()
 {
 
-string word;
+ string word;
 
 cin >> word;
 
