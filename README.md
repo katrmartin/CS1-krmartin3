@@ -12,7 +12,7 @@
 
 # Assignments
 
-## Assignment #1:
+## Assignment #0:
 
 | Name        | Value           | 
 | ------------- |:-------------| 
@@ -23,7 +23,7 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshot found in the same location   |
 
-## Assignment #2:
+## Assignment #1:
 
 | Name        | Value           | 
 | ------------- |:-------------| 
@@ -33,6 +33,18 @@
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/stdio      |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
+
+## Assignment #2:
+
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Triangle and Kattis R2| 
+| Description    | basic math problems    |  
+| Due date  | 19-Sep-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/math      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
+
 
 # Labs
 
