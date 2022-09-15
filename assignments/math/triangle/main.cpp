@@ -22,7 +22,7 @@ int main()
 using namespace std;
 
 
-    cout << "Hello! Please enter 3 side lengths of a triangle separated by spaces: (Please note that one side cannot be greater than the sum of the other two sides or equal to them, or else it's not a real triangle!) " ;
+    cout << "Hello! :) Please enter 3 side lengths of a triangle separated by spaces: (Please note that one side cannot be greater than the sum of the other two sides or equal to them, or else it's not a real triangle!) " ;
 
 //changed from int to float
 
