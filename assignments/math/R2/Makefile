@@ -17,3 +17,14 @@ run:
 
 clean:
 	rm -f $(PROGRAM_NAME) *.o
+
+test:
+	@cat input/1.in | ./$(PROGRAM_NAME) | diff - output/1.ans
+	@cat input/2.in | ./$(PROGRAM_NAME) | diff - output/2.ans
+	@cat input/3.in | ./$(PROGRAM_NAME) | diff - output/3.ans
+	@cat input/4.in | ./$(PROGRAM_NAME) | diff - output/4.ans
+	@cat input/5.in | ./$(PROGRAM_NAME) | diff - output/5.ans
+	@cat input/6.in | ./$(PROGRAM_NAME) | diff - output/6.ans
+
+	
+	@echo "All test cases passed!"
