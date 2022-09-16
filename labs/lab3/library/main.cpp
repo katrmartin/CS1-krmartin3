@@ -52,7 +52,9 @@ int main()
     //FIXME9 - Using library function, find and print the sine of the radian value in FIXME 8 upto 2 decimal points #FIXED
     result = sin(radian);
     printf("sine (%f radians) = %.2f\n", radian, result);
-    //FIXME10 - Using library function, find and print the cosine of the radian value in FIXME 8 upto 2 decimal points 
+    //FIXME10 - Using library function, find and print the cosine of the radian value in FIXME 8 upto 2 decimal points #FIXED
+    result = cos(radian);
+    printf("cosine (%f radians) = %.2f\n", radian, result);
 
 
     cin.ignore(1000, '\n');

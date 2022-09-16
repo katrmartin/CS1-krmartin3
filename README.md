@@ -68,12 +68,22 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
 
-## Lab #3:
+## Lab #2.5:
 | Name        | Value           | 
 | ------------- |:-------------| 
 | Name     | Add Two Numbers | 
 | Description    | a c++ program that adds any two integers  |  
 | Due date  | 12-Sep-22      |  
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/math/addtwonumbers      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
+## Lab #3:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Library | 
+| Description    | a c++ program that solves mathematical functions from a given decimal number  |  
+| Due date  | 12-Sep-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/lab3/library      |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
