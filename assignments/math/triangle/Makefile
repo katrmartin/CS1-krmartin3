@@ -1,5 +1,5 @@
 
-COMPILER = g++
+COMPILER = g++ 
 
 COMPILER_FLAGS = -c -g -Wall -std=c++17
 
