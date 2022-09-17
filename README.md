@@ -83,7 +83,17 @@
 | ------------- |:-------------| 
 | Name     | Library | 
 | Description    | a c++ program that solves mathematical functions from a given decimal number  |  
-| Due date  | 12-Sep-22      |  
+| Due date  | 19-Sep-22      |  
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/lab3/library      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
+## Lab #3.5:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Kattis Last Problem | 
+| Description    | User defined and library functions  |  
+| Due date  | 12-Sep-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/lab3/lastproblem      |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |

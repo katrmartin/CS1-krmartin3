@@ -22,7 +22,7 @@ int main()
     cout << "Hello! :) Please enter 3 side lengths of a triangle separated by spaces: (Please note that one side cannot be greater than the sum of the other two sides or equal to them, or else it's not a real triangle!) " ;
 //changed from int to float
     float num1, num2, num3, num4, perimeter, area;
-    cin >> num1 >> num2 >> num3 ;
+    cin >> num1 >> num2 >> num3;
     num4 = (num1+num2+num3)/2;
     area = sqrt(num4*(num4-num1)*(num4-num2)*(num4-num3));
     perimeter = num1 + num2 + num3;
@@ -33,3 +33,4 @@ int main()
     return 0;
 
 }
+//num1 + num3 => num2, num2 + num3 => num1
