@@ -8,33 +8,32 @@ This program calculates arithmetic operations from two values given by the user
 #include <iostream>
 
 
-long numberSum(long num1, long num2) {
+float numberSum(float num1, float num2) {
     using namespace std;
-    long total = num1 + num2;
+    float total = num1 + num2;
     cout << "Sum of " << num1 << " + " << num2 << " = " << total << endl;
     return total;
 
 }
 
-long numberProduct(long num1, long num2) {
+float numberProduct(float num1, float num2) {
     using namespace std;
-    long total = num1*num2;
+    float total = num1*num2;
     cout << "Product of " << num1 << " * " << num2 << " = " << total << endl;
     return total;
 // need to have it show decimals!!
 }
 
-long numberQuotient(long num1, long num2) {
+float numberQuotient(float num1, float num2) {
     using namespace std;
-    long total = num1/num2;
+    float total = num1/num2;
     cout << "Quotient of " << num1 << " / " << num2 << " = " << total << endl;
     return total;
 
 }
-
-long numberSubtract(long num1, long num2) {
+float numberSubtract(float num1, float num2) {
     using namespace std;
-    long total = num1-num2;
+    float total = num1-num2;
     cout << num1 << " - " << num2 << " = " << total << endl;
     return total;
 }
