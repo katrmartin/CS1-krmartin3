@@ -38,10 +38,21 @@
 
 | Name        | Value           | 
 | ------------- |:-------------| 
-| Name     | Triangle and Kattis R2| 
+| Name     | Triangle and Kattis R2 | 
 | Description    | basic math problems    |  
 | Due date  | 19-Sep-22      |  
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/math      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
+
+## Assignment #3:
+
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Calculator | 
+| Description    | Functions and unit testing    |  
+| Due date  | 27-Sep-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/HW3/calculator      |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
@@ -58,7 +69,7 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes   |
 
-## Lab #2:
+## Lab #2.1:
 | Name        | Value           | 
 | ------------- |:-------------| 
 | Name     | Math Circle | 
@@ -68,7 +79,7 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
 
-## Lab #2.5:
+## Lab #2.2:
 | Name        | Value           | 
 | ------------- |:-------------| 
 | Name     | Add Two Numbers | 
@@ -78,7 +89,7 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
 
-## Lab #3:
+## Lab #3.1:
 | Name        | Value           | 
 | ------------- |:-------------| 
 | Name     | Library | 
@@ -88,12 +99,32 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
 
-## Lab #3.5:
+## Lab #3.2:
 | Name        | Value           | 
 | ------------- |:-------------| 
 | Name     | Kattis Last Problem | 
 | Description    | User defined and library functions  |  
 | Due date  | 12-Sep-22      |  
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/lab3/lastproblem      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
+## Lab #4.1:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Points | 
+| Description    | User defined functions & Unit testing   |  
+| Due date  | 26-Sep-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/lab4/points      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
+## Lab #4.2:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Kattis Triangle Area | 
+| Description    | User defined functions & Unit testing   |  
+| Due date  | 26-Sep-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/lab4/points      |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
