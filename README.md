@@ -115,7 +115,7 @@
 | Name     | Points | 
 | Description    | User defined functions & Unit testing   |  
 | Due date  | 26-Sep-22      |  
-| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/lab4/points      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/unittest/points      |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
 
@@ -125,6 +125,6 @@
 | Name     | Kattis Triangle Area | 
 | Description    | User defined functions & Unit testing   |  
 | Due date  | 26-Sep-22      |  
-| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/lab4/points      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/unittest/triangleArea      |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |

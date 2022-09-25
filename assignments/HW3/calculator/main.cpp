@@ -7,6 +7,7 @@ This program calculates arithmetic operations from two values given by the user
 
 #include <iostream>
 #include <cassert>
+#include <cmath>
 using namespace std;
 
 void test();
@@ -38,9 +39,9 @@ T1 numberSubtract(T1 num1, T2 num2) {
     return total;
 }
 
-template<class T1, class T2>
-T1 numberRemainder(T1 num1, T2 num2) {
-    T1 total = num1%num2;
+
+int numberRemainder(int num1, int num2) {
+    int total = num1%num2;
     return total;
 
 }
@@ -52,20 +53,11 @@ T1 numberPower(T1 num1, T2 num2) {
 }
 
 template<class T1>
-T1 numberSqrt1(T1 num1) {
-    T1 total1 = sqrt(num1);
-    return total1;
+T1 numberSqrt(T1 num1) {
+    T1 total = sqrt(num1);
+    return total;
 
 }
-
-template<class T1>
-T1 numberSqrt2(T1 num2) {
-    T1 total2 = sqrt(num2);
-    return total2;
-
-}
-
-
 
 template<class T1, class T2>
 T1 outputLarger(T1 num1, T2 num2)
@@ -90,13 +82,13 @@ int main() {
     cout << num1 << " - " << num2 << " = " << numberSum(num1, num2) << endl;
     numberQuotient(num1, num2);
     cout << num1 << " / " << num2 << " = " << numberQuotient(num1, num2) << endl;
-    numberRemainder(num1, num2);
+    numberRemainder(int (num1), int (num2));
     cout << "The remainder of " << num1 << " / "  << num2 << " = " << numberRemainder(num1, num2) << endl;
     numberPower(num1, num2);
     cout << num1 << " ^ " << num2 << " = " << numberPower(num1, num2) << endl;
-    numberSqrt1(num1);
-    numberSqrt2(num2);
-    cout << "sqrt of" << num1 << " = " << numberSqrt1(num1) << " and sqrt of" << num2 << " = " << numberSqrt2(num2) << endl;
+    numberSqrt(num1);
+    numberSqrt(num2);
+    cout << "sqrt of " << num1 << " = " << numberSqrt(num1) << " and sqrt of " << num2 << " = " << numberSqrt(num2) << endl;
     cout << outputLarger(num1, num2) << " is the larger number" << endl;
 
 return 0;
@@ -115,6 +107,22 @@ void test() {
 
  assert(numberSubtract(2,4) == -2);
  assert(numberSubtract(2.0,4.5) == -2.5);
+
+ assert(numberPower(3,3) == 27);
+ assert(numberPower(2.5,4) == 39.0625);
+
+ assert(numberRemainder(9,2) == 1);
+ assert(numberRemainder(27,6) == 3);
+
+ assert(numberSqrt(9) == 3);
+ assert(numberSqrt(144) == 12);
+
+ assert(outputLarger(2.5,11) == 11);
+ assert(outputLarger(4, 5) == 5);
+
+
+
+
 
     cerr << "All test cases passed!\n";
 }
