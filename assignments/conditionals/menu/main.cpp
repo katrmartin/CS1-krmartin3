@@ -18,10 +18,11 @@ Algorithm:
 #include <cmath>
 using namespace std;
 
-int num1, num2, num3, num4, num5;
+int num1, num2, num3, num4, num5, sum;
 int largestNum(int num1, int num2, int num3, int num4, int num5);
 int smallestNum(int num1, int num2, int num3, int num4, int num5);
-int floorNum(int num1, int num2, int num3, int num4, int num5);
+string floorNum(int num1, int num2, int num3, int num4, int num5);
+int floorSum();
 int getMenuOption();
 
 int largestNum(int num1, int num2, int num3, int num4, int num5) {
@@ -51,25 +52,18 @@ int smallestNum(int num1, int num2, int num3, int num4, int num5) {
 
 }
 
-int floorNum(int num1, int num2, int num3, int num4, int num5) {
+string floorNum(int num1, int num2, int num3, int num4, int num5) {
     int sum, floorSum;
     sum = num1 + num2 + num3 + num4 + num5;
     floorSum = floor(sum);
-    int even, odd, zero;
+    string even, odd, zero;
 
-    if(floorSum %2 == 0) { //even
-        //cout << floorSum << " The sum of the numbers' floor, " << floorSum << " is even!\n";
-        floorSum = even;
-        return even; }
-    else if(floorSum = 0) {
-        //cout << floorSum << " The sum of the numbers' floor, " << floorSum << " is 0!\n";
-        floorSum = zero;
-        return zero; }
-    else {
-        //cout << floorSum << " The sum of the numbers' floor, " << floorSum << " is odd!\n";
-        floorSum = odd;
-        return odd;
-    }
+    if(floorSum %2 == 0) //even
+        return "even"; 
+    else if(floorSum == 0) //zero
+        return "zero"; 
+    else //odd
+        return "odd";
     
 }
 
@@ -81,14 +75,8 @@ int main()
     cin >> num1 >> num2 >> num3 >> num4 >> num5;
     cout << largestNum(num1, num2, num3, num4, num5) << " is the larger number!" << endl;
     cout << smallestNum(num1, num2, num3, num4, num5) << " is the smaller number!" << endl;
-    cout << floorNum(num1, num2, num3, num4, num5) << endl;
-
-
-
-
-
-
-
+    cout << "The floor of the sum of the numbers is " << floorNum(num1, num2, num3, num4, num5) << endl;
+  
     return 0;
 
 }
