@@ -18,65 +18,132 @@ Algorithm:
 #include <cmath>
 using namespace std;
 
-int num1, num2, num3, num4, num5, sum;
-int largestNum(int num1, int num2, int num3, int num4, int num5);
-int smallestNum(int num1, int num2, int num3, int num4, int num5);
-string floorNum(int num1, int num2, int num3, int num4, int num5);
-int floorSum();
+
+
+float num1, num2, num3, num4, num5, sum;
+template <class T1>
+T1 largestNum(T1 num1, T1 num2, T1 num3, T1 num4, T1 num5);
+float smallestNum(float num1, float num2, float num3, float num4, float num5);
+string floorNum(float num1, float num2, float num3, float num4, float num5);
+float floorSum();
 int getMenuOption();
+int option;
+void program();
 
-int largestNum(int num1, int num2, int num3, int num4, int num5) {
-    if (num1 > num2 && num1 > num3 && num1 > num4 && num1 > num5) {
+template <class T1>
+T1 largestNum(T1 num1, T1 num2, T1 num3, T1 num4, T1 num5) {
+    if (num1 > num2 && num1 > num3 && num1 > num4 && num1 > num5) 
+    {
         return num1; }
-    else if (num2 > num1 && num2 > num3 && num2 > num4 && num2 > num5) {
+    else if (num2 > num1 && num2 > num3 && num2 > num4 && num2 > num5) 
+    {
         return num2; }
-    else if(num3 > num1 && num3 > num2 && num3 > num4 && num3 > num5) {
+    else if(num3 > num1 && num3 > num2 && num3 > num4 && num3 > num5) 
+    {
         return num3; }
-    else if(num4 > num1 && num4 > num2 && num4 > num3 && num4 > num5) {
+    else if(num4 > num1 && num4 > num2 && num4 > num3 && num4 > num5) 
+    {
         return num4; }
-    else (num5 > num1 && num5 > num2 && num5 > num3 && num5 > num4); {
+    else (num5 > num1 && num5 > num2 && num5 > num3 && num5 > num4); 
+    {
         return num5; }
 }
 
-int smallestNum(int num1, int num2, int num3, int num4, int num5) {
-    if (num1 < num2 && num1 < num3 && num1 < num4 && num1 < num5) {
+float smallestNum(float num1, float num2, float num3, float num4, float num5) {
+    if (num1 < num2 && num1 < num3 && num1 < num4 && num1 < num5) 
+    {
         return num1; }
-    else if (num2 < num1 && num2 < num3 && num2 < num4 && num2 < num5) {
+    else if (num2 < num1 && num2 < num3 && num2 < num4 && num2 < num5) 
+    {
         return num2; }
-    else if(num3 < num1 && num3 < num2 && num3 < num4 && num3 < num5) {
+    else if(num3 < num1 && num3 < num2 && num3 < num4 && num3 < num5) 
+    {
         return num3; }
-    else if(num4 < num1 && num4 < num2 && num4 < num3 && num4 < num5) {
+    else if(num4 < num1 && num4 < num2 && num4 < num3 && num4 < num5) 
+    {
         return num4; }
-    else (num5 < num1 && num5 < num2 && num5 < num3 && num5 < num4); {
+    else (num5 < num1 && num5 < num2 && num5 < num3 && num5 < num4); 
+    {
         return num5; }
 
 }
 
-string floorNum(int num1, int num2, int num3, int num4, int num5) {
-    int sum, floorSum;
+string floorNum(float num1, float num2, float num3, float num4, float num5) {
+    int sum;
     sum = num1 + num2 + num3 + num4 + num5;
-    floorSum = floor(sum);
     string even, odd, zero;
 
-    if(floorSum %2 == 0) //even
+    if(floor(sum) == 0)
+    {
+        return "zero";
+    }
+    else if(floor(sum%2) == 0) 
         return "even"; 
-    else if(floorSum == 0) //zero
-        return "zero"; 
-    else //odd
-        return "odd";
+    else 
+        return "odd"; 
+    
     
 }
 
-//need to make it return odd, even, or zero and actually use it
+int getMenuOption() {
+    int option;
+    cout << "Please enter one of the following menu options (1-4):\n";
+    cout << "1 -- Largest Number" << endl;
+    cout << "2 -- Smallest Number" << endl;
+    cout << "3 -- Is the sum even, odd, or zero?" << endl;
+    cout << "4 -- Quit" << endl;
+    cin >> option;
+    return option;
+}
+
+//zero is not working for some reason
 
 int main() 
 {
+    /*
     cout << "Please enter 5 whole numbers separated by spaces: ";
     cin >> num1 >> num2 >> num3 >> num4 >> num5;
-    cout << largestNum(num1, num2, num3, num4, num5) << " is the larger number!" << endl;
-    cout << smallestNum(num1, num2, num3, num4, num5) << " is the smaller number!" << endl;
+    cout << largestNum(num1, num2, num3, num4, num5) << " is the largest number!" << endl;
+    cout << smallestNum(num1, num2, num3, num4, num5) << " is the smallest number!" << endl;
     cout << "The floor of the sum of the numbers is " << floorNum(num1, num2, num3, num4, num5) << endl;
-  
+    */
+
+    int option = 0;
+
+    while(option != 4)
+    {
+        option = getMenuOption();
+        if (option !=4)
+        {
+        cout << "Please enter 5 whole numbers separated by spaces: ";
+        cin >> num1 >> num2 >> num3 >> num4 >> num5;
+        }
+        
+
+        switch(option) {
+        case 1:
+        {
+            cout << largestNum(num1, num2, num3, num4, num5) << " is the largest number!\n" << endl;
+            break;
+        }
+        case 2:
+        {
+            cout << smallestNum(num1, num2, num3, num4, num5) << " is the smallest number!\n" << endl;
+            break;
+        }
+        case 3:
+        {
+            cout << "The floor of the sum of the numbers is " << floorNum(num1, num2, num3, num4, num5) << endl << endl;
+            break;
+        }
+       
+        default:
+        {
+
+        }
+    }
+    }
+
     return 0;
 
 }

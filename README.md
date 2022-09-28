@@ -56,6 +56,27 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
+## Assignment #4.1:
+
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Kattis  | 
+| Description    | CLI Menu, Conditionals, Functions and Testing   |  
+| Due date  | 4-Oct-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/conditionals/menu      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
+
+## Assignment #4:
+
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Menu | 
+| Description    | CLI Menu, Conditionals, Functions and Testing   |  
+| Due date  | 4-Oct-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/conditionals/menu      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
 # Labs
 
