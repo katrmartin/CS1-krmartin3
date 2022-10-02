@@ -21,17 +21,35 @@ using namespace std;
 
 
 float num1, num2, num3, num4, num5, sum;
-template <class T1>
-T1 largestNum(T1 num1, T1 num2, T1 num3, T1 num4, T1 num5);
+template <class T1, class T2, class T3, class T4, class T5>
+T1 largestNum(T1 num1, T2 num2, T3 num3, T4 num4, T5 num5);
 float smallestNum(float num1, float num2, float num3, float num4, float num5);
 string floorNum(float num1, float num2, float num3, float num4, float num5);
 float floorSum();
 int getMenuOption();
 int option;
-void program();
+void test();
 
-template <class T1>
-T1 largestNum(T1 num1, T1 num2, T1 num3, T1 num4, T1 num5) {
+void test() {
+
+    assert(largestNum(1, -5, 4, 11, 6) == 11);
+    assert(largestNum(2.5, -7, 3, 16.7, 5) == 16.7);
+    assert(largestNum(3, -2.5, 4.23, 5, 4) == 5);
+
+    assert(smallestNum(3, -2.5, 4.23, 5, 4) == -2.5);
+    assert(smallestNum(1, -5, 4, 11, 6) == -5);
+    assert(smallestNum(2.5, -7, 3, 16.7, 5) == -7);
+
+    assert(floorNum(3, -2.5, 4.23, 5, 4) == "odd");
+    assert(floorNum(2.5, -7, 3, 16.7, 5) == "even");
+    assert(floorNum(-5, -3, -1, 1, 8) == "zero");
+    
+    cerr << "All test cases passed!" << endl;
+
+}
+
+template <class T1, class T2, class T3, class T4, class T5>
+T1 largestNum(T1 num1, T2 num2, T3 num3, T4 num4, T5 num5) {
     if (num1 > num2 && num1 > num3 && num1 > num4 && num1 > num5) 
     {
         return num1; }
@@ -98,7 +116,7 @@ int getMenuOption() {
 
 //zero is not working for some reason
 
-int main() 
+int main(int argc, char* argv[]) 
 {
     /*
     cout << "Please enter 5 whole numbers separated by spaces: ";
@@ -108,6 +126,10 @@ int main()
     cout << "The floor of the sum of the numbers is " << floorNum(num1, num2, num3, num4, num5) << endl;
     */
 
+    if(argc == 2 && string(argv[1]) == "test") {
+        test();
+        exit(EXIT_SUCCESS); // exit the program
+    }
     int option = 0;
 
     while(option != 4)
