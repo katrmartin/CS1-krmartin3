@@ -16,6 +16,7 @@ Algorithm:
 #include <iostream>
 #include <cassert>
 #include <cmath>
+#include <string>
 using namespace std;
 
 
@@ -29,6 +30,7 @@ float floorSum();
 int getMenuOption();
 int option;
 void test();
+string getName;
 
 void test() {
 
@@ -105,7 +107,7 @@ string floorNum(float num1, float num2, float num3, float num4, float num5) {
 
 int getMenuOption() {
     int option;
-    cout << "Please enter one of the following menu options (1-4):\n";
+    cout << getName << ", please enter one of the following menu options (1-4):\n";
     cout << "1 -- Largest Number" << endl;
     cout << "2 -- Smallest Number" << endl;
     cout << "3 -- Is the sum even, odd, or zero?" << endl;
@@ -118,6 +120,10 @@ int getMenuOption() {
 
 int main(int argc, char* argv[]) 
 {
+        cout << "Hello! Please enter your name: ";
+        getline(cin, getName);
+        cout << "\nHello, " << getName << "!\n" << endl;
+
     /*
     cout << "Please enter 5 whole numbers separated by spaces: ";
     cin >> num1 >> num2 >> num3 >> num4 >> num5;
@@ -129,6 +135,7 @@ int main(int argc, char* argv[])
     if(argc == 2 && string(argv[1]) == "test") {
         test();
         exit(EXIT_SUCCESS); // exit the program
+
     }
     int option = 0;
 
@@ -137,7 +144,7 @@ int main(int argc, char* argv[])
         option = getMenuOption();
         if (option !=4)
         {
-        cout << "Please enter 5 whole numbers separated by spaces: ";
+        cout << getName << ", please enter 5 whole numbers separated by spaces: ";
         cin >> num1 >> num2 >> num3 >> num4 >> num5;
         }
         
