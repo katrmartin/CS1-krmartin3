@@ -45,7 +45,7 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
-## Assignment #3:
+## Assignment #3.1:
 
 | Name        | Value           | 
 | ------------- |:-------------| 
@@ -53,6 +53,17 @@
 | Description    | Functions and unit testing    |  
 | Due date  | 27-Sep-22      |  
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/HW3/calculator      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
+
+## Assignment #3.2:
+
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Faktor | 
+| Description    | Functions and unit testing    |  
+| Due date  | 27-Sep-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/HW3/faktor      |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
