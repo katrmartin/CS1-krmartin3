@@ -191,3 +191,23 @@
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/conditionals/twostones      |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
+## Lab #6.1:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Shapes | 
+| Description    | Use of loop structures in C++ by drawing various geometric shapes    |  
+| Due date  | 11-Oct-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/loops/shapes      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
+## Lab #6.2:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Dog & Gopher | 
+| Description    | Use of loop structures to solve Kattis problem    |  
+| Due date  | 11-Oct-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/loops/doggopher      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |

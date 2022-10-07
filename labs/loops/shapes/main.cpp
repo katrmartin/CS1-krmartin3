@@ -43,7 +43,7 @@ void printFlippedTriangle(int height)
     *
 */
     
-   //FIXME3
+   //FIXME3 #FIXED
     int row = height;
    while (row >= 1)
    {
@@ -57,7 +57,7 @@ void printFlippedTriangle(int height)
 }
 
 /*
-FIXME4
+FIXME4 #FIXED
 design and implement a function that takes an integer as height and 
 prints square of the given height with *
 Square of height 5, ex. should look like this:
@@ -99,8 +99,8 @@ int main(int argc, char* argv[])
 {
     bool running = true;
     while(running == true){
-        //FIXME5 add a loop to make the program continue to run until the user wants to quit
-        //FIXME6 call clearScreen function to clear the screen for each round of the loop
+        //FIXME5 add a loop to make the program continue to run until the user wants to quit #FIXED
+        //FIXME6 call clearScreen function to clear the screen for each round of the loop #FIXED
         int height;
         cout << "Program prints the geometric shapes of given height with *\n";
         cout << "Please enter the height of the shape: ";
@@ -108,26 +108,26 @@ int main(int argc, char* argv[])
         //call printTriangle function passing user entered height
         printTriangle(height);
 
-        //FIXME7
+        //FIXME7 #FIXED
         //call printFlippedTriangle passing proper argument
         //manually test the function
         printFlippedTriangle(height);
     
 
-        //FIXME8
+        //FIXME8 #FIXED
         //call the function defined in FIXME4 passing proper argument
         //manually test the function
         printSquare(height);
         
 
-        //FIXME9
+        //FIXME9 #FIXED
         //prompt user to enter y/Y to continue anything else to quit
         cout << "Do you want to continue (y/Y)" << endl;
         char response;
         cin >> response;
             
 
-        //FIXME10
+        //FIXME10 #FIXED
         //use conditional statements to break the loop or continue the loop
 
 

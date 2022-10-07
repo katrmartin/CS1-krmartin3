@@ -2,13 +2,15 @@
 #include <cassert>
 using namespace std;
 
-int num1, num2, ans, ans2;
 
 int scientist(int num1, int num2);
 void test();
+//int num1, num2, ans, ans2;
+
 
 int scientist (int num1, int num2)
 {
+    int ans, ans2;
     ans = num1*(num2-1);
     ans2 = ans + 1;
     return ans2;
@@ -16,13 +18,15 @@ int scientist (int num1, int num2)
 
 int main(int argc, char* argv[])
 {
+    int num1, num2, ans2;
+
     if(argc == 2 && string(argv[1]) == "test") {
         test();
         cout << endl;
     }
     else {
         cin >> num1 >> num2;
-        scientist(num1, num2);
+        ans2 = scientist(num1, num2);
         cout << ans2 << endl; 
     }
         return 0;
