@@ -100,6 +100,29 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
+## Assignment #5.1:
+
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Guess the Number! | 
+| Description    | game using loops and conditions   |  
+| Due date  | 12-Oct-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/loops/guessNumber      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
+
+## Assignment #5.2:
+
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Kattis FizzBuzz | 
+| Description    | kattis game using loops and conditions   |  
+| Due date  | 12-Oct-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/loops/fizzbuzz      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
+
+
 # Labs
 
 ## Lab #1:
