@@ -3,7 +3,7 @@ COMPILER = g++
 
 COMPILER_FLAGS = -c -g -Wall -std=c++17
 
-PROGRAM_NAME = timeloop.exe
+PROGRAM_NAME = hissingmicrophone.exe
 
 CPP_FILES = main.cpp
 

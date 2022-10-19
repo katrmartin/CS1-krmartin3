@@ -245,12 +245,32 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
 
+## Lab #7.2:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | kattis - timeloop | 
+| Description    | Demonstrates the usage of pointers, enum type and user-defined namespace with a kattis problem  |  
+| Due date  | 19-Oct-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/lab7/timeloop      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
+## Lab #8.1:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | kattis - Hissing Microphone | 
+| Description    | usage of strings in a Kattis problem  |  
+| Due date  | 24-Oct-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/strings/hissingmicrophone      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
 ## Lab #8.2:
 | Name        | Value           | 
 | ------------- |:-------------| 
-| Name     | strings - Simon Says | 
+| Name     | kattis - Simon Says | 
 | Description    | usage of strings in a Kattis problem  |  
-| Due date  | 19-Oct-22      |  
+| Due date  | 24-Oct-22      |  
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/strings/simonsays      |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
