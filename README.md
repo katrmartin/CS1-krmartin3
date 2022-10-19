@@ -245,10 +245,10 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
 
-## Lab #7.2:
+## Lab #8.2:
 | Name        | Value           | 
 | ------------- |:-------------| 
-| Name     | Simon Says | 
+| Name     | strings - Simon Says | 
 | Description    | usage of strings in a Kattis problem  |  
 | Due date  | 19-Oct-22      |  
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/strings/simonsays      |  
