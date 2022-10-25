@@ -122,6 +122,27 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
+## Assignment #6.1:
+
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Kattis Apaxiaans | 
+| Description    | problem using strings   |  
+| Due date  | 26-Oct-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/strings/apaxiaans      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
+
+# Assignment #6.2:
+
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Kattis Avion | 
+| Description    | problem using strings   |  
+| Due date  | 26-Oct-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/strings/avion      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
 # Labs
 
