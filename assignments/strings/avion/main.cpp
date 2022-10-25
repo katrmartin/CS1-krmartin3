@@ -4,7 +4,11 @@ Date: 10/21/22
 Kattis - Avion
 
 Algorithm:
-    FIXMEEEEEE
+    1. function prototypes
+    2. make function that finds "FBI" and returns
+    3. make another function that takes 5 user input, uses above function to solve, and either outputs the line its on or "HE GOT AWAY!"
+    4. call functions in main
+    5. testing function and call to main
 */
 
 #include <iostream>
