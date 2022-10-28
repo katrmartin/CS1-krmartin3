@@ -295,3 +295,23 @@
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/strings/simonsays      |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
+## Lab #9.1:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | kattis - numbers | 
+| Description    | usage of arrays and array operations  |  
+| Due date  | 31-Oct-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/arrays/numbers      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
+## Lab #8.2:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | kattis - modulo | 
+| Description    | usage of arrays and array operations  |  
+| Due date  | 31-Oct-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/arrays/modulo     |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
