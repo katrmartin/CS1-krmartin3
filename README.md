@@ -144,6 +144,28 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
+# Assignment #7.1:
+
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Kattis Lineup | 
+| Description    | Arrays   |  
+| Due date  | 2-Nov-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/arrays/lineup      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
+
+# Assignment #7.2:
+
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Kattis Falling Apart | 
+| Description    | Arrays   |  
+| Due date  | 2-Nov-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/arrays/fallingapart      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
+
 # Labs
 
 ## Lab #1:
