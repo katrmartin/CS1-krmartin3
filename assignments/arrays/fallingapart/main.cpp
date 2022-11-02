@@ -3,7 +3,10 @@ Made by Katie Martin
 10/31/22
 Kattis - Falling Apart
     ALGORITHM:
-    FIXME
+        1. make function for sorting the array
+        2. make two functions use mod that decide when Bob and Alice get a piece, add the values, and return value
+        3. create dynamic array and cin the integers in main
+        4. call functions in main
 */
 
 #include <iostream>

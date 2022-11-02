@@ -5,7 +5,10 @@ Kattis - lineup
 
 Algorithm:
     1. make dynamic array to read in as many names as user decides to input
-    2. 
+    2. make function that takes the dynamic array, sorts it to ascending and descending, and compares to original input array
+        2a. returns if it matches to increasing, decreasing, or neither
+    3. cin array size and names in main
+    4. call functions in main
 
 */
 
