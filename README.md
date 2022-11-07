@@ -337,3 +337,23 @@
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/arrays/modulo     |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
+## Lab #9.1:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | kattis - fox says | 
+| Description    | usage of vectors  |  
+| Due date  | 8-Nov-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/vectors/foxsays     |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
+## Lab #9.1:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | kattis - num system | 
+| Description    | usage of vectors  |  
+| Due date  | 8-Nov-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/vectors/numSystem     |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
