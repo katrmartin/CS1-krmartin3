@@ -357,3 +357,13 @@
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/vectors/numSystem     |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
+## Lab #10:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | fileio | 
+| Description    | using file input and output with a simple calculator  |  
+| Due date  | 15-Nov-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/fileio     |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
