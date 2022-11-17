@@ -133,7 +133,7 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
-# Assignment #6.2:
+## Assignment #6.2:
 
 | Name        | Value           | 
 | ------------- |:-------------| 
@@ -144,7 +144,7 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
-# Assignment #7.1:
+## Assignment #7.1:
 
 | Name        | Value           | 
 | ------------- |:-------------| 
@@ -155,7 +155,7 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
-# Assignment #7.2:
+## Assignment #7.2:
 
 | Name        | Value           | 
 | ------------- |:-------------| 
@@ -166,7 +166,7 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
-# Assignment #8:
+## Assignment #8:
 
 | Name        | Value           | 
 | ------------- |:-------------| 
