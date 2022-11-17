@@ -1,14 +1,12 @@
 ================================================================================
 fname          lname            test1   test2   test3   test4   avg   grade
 ================================================================================
-Johnny          Lang            100   100   100   98   99.5   A
-Suzie          Wang            95   85   75   80   83.75   B
-Allie          Smith            85   85   80   82   83   B
-George          Michael            0   100   100   0   50   F
-Henry          Miller            75   85   82   90   83   B
-Billie          Jeans            100   92   83   85   90   A
-Hillary          Clinton            90   91   93   95   92.25   A
-Sally          Railey            65   70   75   78   72   C
-Tom          Jerry            85   90   97   98   92.5   A
-Bill          Kool            65   75   65   66   67.75   D
-Alice          Wood            44   75   88   99   76.5   C
+Katie          Martin            92      93      95      94     93.5    A       
+Molly          Kaipus            100     100     95      78     93.25   A       
+Hillary        Clinton           90      91      93      95     92.25   A       
+Juston         Sux               100     100     100     69     92.25   A       
+Joel           Biben             78      86      95      87     86.5    B       
+Bob            Bob               97.5    69      69      100    83.875  B       
+John           Krasinski         85      87      80      50     75.5    C       
+Domnal         Tromb             50      52      64      70     59      F       
+================================================================================
