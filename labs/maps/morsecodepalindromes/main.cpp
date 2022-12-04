@@ -39,6 +39,7 @@ const map<char, string> morseCode = {
     {'8', "---.."}, {'9', "----."}, 
 };
 
+
 // function prototypes
 string convertToMorse(const string&);
 bool isPalindrome(const string&);
@@ -133,10 +134,15 @@ void testConvertToMorse() {
     assert(convertToMorse("A") == ".-");
     assert(convertToMorse("9") == "----.");
     assert(convertToMorse("Aa") == ".-.-");
-    assert(convertToMorse("AaBb") == ".-.-.-...");
-    assert(convertToMorse("Race car!") == ".-.--.-.-.--.-.");
-    assert(convertToMorse("1881") == "----.----.----.----.");
+	assert(convertToMorse("AaBb") == ".-.--...-...");
+	assert(convertToMorse("Race car!") == ".-..--.-..-.-..-.-.");
+	assert(convertToMorse("1881") == ".-------..---...----");
     // FIXME7 - add 3 more test cases
+    assert(convertToMorse(hello) == "......-...-..---");
+    assert(convertToMorse(world) == ".-----.-..-..-..");
+    assert(convertToMorse(Lauren) == ".-...-..-.-..-.
+");
+
 }
 
 void testIsPalindrome() {
