@@ -68,10 +68,10 @@ void solve() {
     // FIXME3 - step 4 #FIXED
     // check if morse code is a palindrome calling isPalindrome function
     // isPalindrome(morse);
-    // FIXME4 - step 5
+    // FIXME4 - step 5 #FIXED
     if (isPalindrome(morse) == true)
-        cout << "1";
-    else cout << "0";
+        cout << "1" << endl;
+    else cout << "0" << endl;
     // print 1 if it is a palindrome, 0 otherwise
 }
 
@@ -83,7 +83,7 @@ string convertToMorse(const string& phrase) {
     // append morse code to a string if char key is found
     for (char c : phrase) {
         c = char(toupper(c));
-        // FIXME5 - find morse code for char c in morseCode map and append it to morse string
+        // FIXME5 - find morse code for char c in morseCode map and append it to morse string #FIXED
         if(morseCode.count(c) != 0)
             morse += morseCode.at(c);
     }
@@ -91,7 +91,7 @@ string convertToMorse(const string& phrase) {
 }
 
 bool isPalindrome(const string& morse) {
-    // FIXME6 - check if morse code is a palindrome
+    // FIXME6 - check if morse code is a palindrome #FIXED
 /*
 reverse(morseCopy.begin(), morseCopy.end());
 
@@ -137,29 +137,39 @@ void testConvertToMorse() {
 	assert(convertToMorse("AaBb") == ".-.--...-...");
 	assert(convertToMorse("Race car!") == ".-..--.-..-.-..-.-.");
 	assert(convertToMorse("1881") == ".-------..---...----");
-    // FIXME7 - add 3 more test cases
-    assert(convertToMorse(hello) == "......-...-..---");
-    assert(convertToMorse(world) == ".-----.-..-..-..");
-    assert(convertToMorse(Lauren) == ".-...-..-.-..-.
-");
+    // FIXME7 - add 3 more test cases #FIXED
+    assert(convertToMorse("hello") == "......-...-..---");
+    assert(convertToMorse("world") == ".-----.-..-..-..");
+    assert(convertToMorse("Lauren") == ".-...-..-.-..-.");
+
 
 }
 
 void testIsPalindrome() {
     string morse = convertToMorse("A");
-    assert(isPalindrome(morse) == true);
+    assert(isPalindrome(morse) == false);
     morse = convertToMorse("AaBb");
     assert(isPalindrome(morse) == false);
     morse = convertToMorse("Race car!");
-    assert(isPalindrome(morse) == true);
+    assert(isPalindrome(morse) == false);
     morse = convertToMorse("1881");
+    assert(isPalindrome(morse) == false);
+    // FIXME8 - add 3 more test cases #FIXED
+    morse = convertToMorse("CT");
     assert(isPalindrome(morse) == true);
-    // FIXME8 - add 3 more test cases
+    morse = convertToMorse("crazy");
+    assert(isPalindrome(morse) == false);
+    morse = convertToMorse("Banana");
+    assert(isPalindrome(morse) == false);
+
+
 }
 
 // unit testing all functions
 void unittest() {
-    // FIXME9 - call all unit test functions
+    // FIXME9 - call all unit test functions #FIXED
+testConvertToMorse();
+testIsPalindrome();
 
     cerr << "All unittests passed!\n";
 }

@@ -339,7 +339,7 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
 
-## Lab #8.2:
+## Lab #9.2:
 | Name        | Value           | 
 | ------------- |:-------------| 
 | Name     | kattis - modulo | 
@@ -349,7 +349,7 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
 
-## Lab #9.1:
+## Lab #10.1:
 | Name        | Value           | 
 | ------------- |:-------------| 
 | Name     | kattis - fox says | 
@@ -359,7 +359,7 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
 
-## Lab #9.1:
+## Lab #10.2:
 | Name        | Value           | 
 | ------------- |:-------------| 
 | Name     | kattis - num system | 
@@ -369,12 +369,32 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
 
-## Lab #10:
+## Lab #11:
 | Name        | Value           | 
 | ------------- |:-------------| 
 | Name     | fileio | 
 | Description    | using file input and output with a simple calculator  |  
 | Due date  | 15-Nov-22      |  
 | Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/fileio     |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
+## Lab #12.1:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | sevenwonders | 
+| Description    | using maps |  
+| Due date  | 5-Dec-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/maps/sevenwonders     |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all requirements and did all fixmes, screenshot found in same location   |
+
+## Lab #12.2:
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | morsecodepalindromes | 
+| Description    | using maps |  
+| Due date  | 5-Dec-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/labs/maps/morsecodepalindromes     |  
 | Self-Grade | 100/100     |  
 | Notes   | completed all requirements and did all fixmes, screenshot found in same location   |

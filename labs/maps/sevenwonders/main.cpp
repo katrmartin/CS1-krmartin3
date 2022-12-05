@@ -172,7 +172,7 @@ void testCountBonus() {
 
 // unit testing all functions
 void unittest() {
-    // FIXME10 - call all unit test functions
+    // FIXME10 - call all unit test functions #FIXED
     testCountCards();
     testCountPoints();
     testCountBonus();
