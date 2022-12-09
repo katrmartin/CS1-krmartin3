@@ -177,6 +177,28 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
+## Assignment #9.1:
+
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | A New Alphabet | 
+| Description    | maps   |  
+| Due date  | 9-Dec-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/maps/anewalphabet      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
+
+## Assignment #9.2:
+
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Babelfish | 
+| Description    | maps   |  
+| Due date  | 9-Dec-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/maps/babelfish      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
+
 # Labs
 
 ## Lab #1:

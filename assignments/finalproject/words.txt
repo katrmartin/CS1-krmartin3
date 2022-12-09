@@ -1,0 +1,12 @@
+apple
+banana
+hello
+gargoyle
+bear
+type
+ready
+book
+pirate
+monkey
+balloon
+
