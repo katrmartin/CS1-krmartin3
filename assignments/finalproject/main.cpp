@@ -12,6 +12,7 @@ Made by: Katie Martin
 #include <cstdlib>
 #include <ctime>
 #include "game.h"
+#include "ascii.h"
 
 using namespace std;
 
@@ -39,9 +40,11 @@ int main() {
             playAgain = true;
         }
         else {
+        
             playAgain = false;
         }
-
+        cin.get();
+        clearScreen();
     }
     return 0;
 

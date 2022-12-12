@@ -5,7 +5,7 @@ COMPILER_FLAGS = -c -g -Wall -std=c++17
 
 PROGRAM_NAME = hangman.exe
 
-CPP_FILES = main.cpp game.cpp
+CPP_FILES = main.cpp game.cpp ascii.cpp
 
 build:
 	@$(COMPILER) $(COMPILER_FLAGS) $(CPP_FILES)

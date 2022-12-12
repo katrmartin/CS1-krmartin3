@@ -199,6 +199,17 @@
 | Self-Grade | 100/100     |  
 | Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
 
+## Assignment #10:
+
+| Name        | Value           | 
+| ------------- |:-------------| 
+| Name     | Final Project -- Hangman | 
+| Description    | Fully playable Hangman game using fileio, vectors, header files, and more   |  
+| Due date  | 14-Dec-22      |  
+| Location     | https://github.com/katrmartin/CS1-krmartin3/tree/main/assignments/finalproject      |  
+| Self-Grade | 100/100     |  
+| Notes   | completed all the requirements and tested program many times; screenshots found in the same location   |
+
 # Labs
 
 ## Lab #1:
